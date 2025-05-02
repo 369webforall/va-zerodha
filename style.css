@@ -3,3 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  padding: 1vmax;
+  border-bottom: 2px solid gray;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2vmax;
+  color: rgb(92, 92, 92);
+}
+a:hover {
+  color: rgb(33, 33, 167);
+  transition: all;
+}
+img {
+  width: 8vmax;
+  object-fit: contain;
+}
